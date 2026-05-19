@@ -1,0 +1,16 @@
+{
+  "name": "protfolio",
+  "version": "1.0.0",
+  "description": "my first website working with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "website",
+    "protfolio"
+  ],
+  "author": "wizardsmith",
+  "license": "ISC"
+}
