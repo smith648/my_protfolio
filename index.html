@@ -4,18 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
   <link rel="stylesheet" href="style.css">
-  <title>protfolio</title>
+  <title>portfolio</title>
 </head>
 
 <body>
   <div class="hero-background">
     <header>
       <div class="logo">
-        <img src="/imgs/dev.png" alt="logo">
+        <img src="/imgs/LOGO.png" alt="logo">
       </div>
       <div class="nav">
         <nav>
@@ -34,13 +42,21 @@
       <div class="mode-toggle">
         <ul>
           <li><button class="btnSun"><i class="bi bi-brightness-high-fill"></i></button></li>
-          <li><button class="btnNight"><i class="bi bi-stars"></i><button></li>
+          <li><button class="btnNight"><i class="bi bi-stars"></i></button></li>
         </ul>
       </div>
     </header>
+
     <main>
       <div class="hero">
         <div class="hero-left">
+          <h1>
+            <span id="name">I'm saif</span> a junior dev
+          </h1>
+          <h2>
+            Computer Science undergraduate dedicated to software development. Currently focused on algorithm design in
+            Linux environments and crafting dynamic, responsive web interfaces with Vanilla JS, CSS, and HTML.
+          </h2>
         </div>
         <div class="hero-right">
           <img id="avatar" src="imgs/moon.png" alt="avatar">
@@ -49,10 +65,15 @@
           </div>
           <img id="clouds1" src="imgs/clouds.png" alt="clouds">
         </div>
+      </div>
+
+      <div class="skills">
+      </div>
     </main>
   </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script type="module" src="script.js"></script>
 
 </html>

@@ -12,5 +12,9 @@
     "protfolio"
   ],
   "author": "wizardsmith",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^10.4.0",
+    "globals": "^17.6.0"
+  }
 }
