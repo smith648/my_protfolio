@@ -54,4 +54,20 @@ function generateCards(cards) {
     }
     exsist = 1;
   }
+  const openButton = document.querySelector("#openButton");
+  openButton.addEventListener('click', () => {
+    const sideBar = document.querySelector('.side-bar');
+    sideBar.style.display = 'flex';
+  });
+
+  const closeButton = document.querySelector("#closeButton");
+  closeButton.addEventListener('click', () => {
+    const sideBar = document.querySelector('.side-bar');
+    sideBar.style.display = 'none';
+  });
+  const imageButton = document.querySelector(".side-bar img");
+  imageButton.addEventListener('click', () => {
+    const sideBar = document.querySelector('.side-bar');
+    sideBar.style.display = 'none';
+  });
 }
